@@ -7,3 +7,8 @@
 2022-05-01 13:44:57.512  INFO o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
 2022-05-01 13:45:25.924  INFO o.s.c.c.c.ConfigServerConfigDataLoader   : **Fetching config from server at : http://localhost:8888**
 2022-05-01 13:45:27.106  INFO o.s.c.c.c.ConfigServerConfigDataLoader   : **Located environment: name=serviceOne, profiles=[dev], label=null, version=80568df28255f14107121eab9777bd5cb82f52f3, state=null**
+
+
+## serviceOne: After updating properties in external properties in GitHub, hit below:
+
+**POST** : http://localhost:8080/actuator/refresh
